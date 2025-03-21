@@ -1,0 +1,23 @@
+Senha 3 vezes
+
+
+import java.util.Scanner;
+public class Senha3vezes {
+    public static void main (String[] args) {
+
+        Scanner in = new Scanner (System.in);
+        int sorteado = 7 ; 
+        int escolhido;
+        System.out.println(" Digite um numero de 0 a 10");
+        escolhido = in.nextInt();
+        if (escolhido == sorteado) {
+            System.out.println("Parabens vc acertou");
+        } else { 
+             System.out.println("Vc errou tente novamente");
+           }
+           System.out.println("tentativas esgotadas");
+        }
+    
+            
+    }
+
